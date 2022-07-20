@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-int n = 5;
+int n = Convert.ToInt32(Console.ReadLine());
 var digits = new List<int>();
 while (n > 0)
 {
